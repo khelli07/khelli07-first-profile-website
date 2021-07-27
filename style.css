@@ -536,7 +536,7 @@ other artworks*/
 
 @media screen and (max-width: 780px) {
   header.head-in {
-    height: 5vh;
+    height: 7vw;
   }
 
   .nav-link {
@@ -546,7 +546,7 @@ other artworks*/
   .gallery ul {
     list-style: none;
     margin-top: 0.7vw;
-    width: 15vw;
+    width: 17vw;
     font-size: 2vw;
   }
 
