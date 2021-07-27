@@ -532,9 +532,42 @@ footer {
 }
 
 /* yang belum:
-other artworks, media query juga belum*/
+other artworks*/
 
 @media screen and (max-width: 780px) {
+  header.head-in {
+    height: 8vh;
+  }
+
+  .nav-link {
+    font-size: 2vw;
+  }
+
+  .gallery ul {
+    list-style: none;
+    margin-top: 0.7vw;
+    width: 15vw;
+    font-size: 2vw;
+  }
+
+  .gallery button {
+    font-size: 2vw;
+  }
+
+  .gallery a {
+    text-decoration: none;
+    color: #fcd8b6;
+    font-weight: 600;
+    font-size: 1.75vw;
+  }
+
+  .gallery li:hover {
+    background: rgb(20, 20, 20);
+    padding-left: 1vw;
+    cursor: pointer;
+    pointer-events: all;
+  }
+
   h4 {
     width: 75%;
     font-size: 1.5vw;
